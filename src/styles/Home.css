@@ -1,0 +1,44 @@
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f4f8; /* Light gray background */
+}
+
+/* Styling for the hero image */
+.hero-image {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any extra space below the image */
+  z-index: -2;
+}
+
+/* Main title styling */
+.hero-head-text {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: white; /* Dark grey color */
+  text-align: left; /* Center the text */
+  margin-top: 100px; /* Space from the top */
+}
+
+/* Subtitle styling */
+.hero-head-subtext {
+  font-size: 1.5em;
+  color: white;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: lighter;
+  width: 50vw;
+  padding: 0 20px; /* Padding on the sides for better readability on narrow screens */
+}
+
+/* Responsive design: Adjusting sizes on smaller screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em; /* Slightly smaller font size on small screens */
+  }
+  h2 {
+    font-size: 1.2em; /* Slightly smaller font size on small screens */
+  }
+}

@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+}
+
+header span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+span.title {
+  padding: 0 16px;
+}
+
+header a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  color: var(--dark-blue);
+}
+
+header a.new-tab-link {
+  border: 1px solid var(--dark-grey);
+  border-radius: 8px;
+}
+
+a:visited {
+  color: var(pink);
+}
+
+a:focus {
+  color: lightgray;
+}
+
+a:active {
+  color: black;
+}
+
+a:hover {
+  color: pink;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+}

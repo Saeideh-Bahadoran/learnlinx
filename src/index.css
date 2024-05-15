@@ -1,0 +1,18 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.footer {
+  margin-top: var(--mantine-spacing-md);
+}
+
+.card {
+  position: relative;
+  background-color: var(--mantine-color-body);
+}
+.title {
+  display: block;
+  margin-top: var(--mantine-spacing-md);
+  margin-bottom: rem(5px);
+}

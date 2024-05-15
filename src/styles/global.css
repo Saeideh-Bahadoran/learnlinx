@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+

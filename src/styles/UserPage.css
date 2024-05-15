@@ -1,0 +1,57 @@
+body {
+  background-color: lightgray;
+}
+
+.usertype {
+  position: absolute;
+  top: 80px;
+  left: 300px;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.profile-picture {
+  position: absolute;
+  top: 250px;
+  right: 100px;
+  font-size: 40px;
+  width: 350px;
+  height: 350px;
+  border: 5px solid grey;
+}
+
+.user-name {
+  position: absolute;
+  top: 600px;
+  left: 300px;
+  font-size: 50px;
+  font-weight: 600;
+}
+.user-email {
+  position: absolute;
+  top: 666px;
+  left: 310px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.user-photo-edit {
+  position: absolute;
+  top: 566px;
+  right: 120px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.user-number {
+  position: absolute;
+  top: 800px;
+  left: 300px;
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.delete-button {
+  position: absolute;
+  top: 500px;
+}

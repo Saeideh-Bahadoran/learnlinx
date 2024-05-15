@@ -1,0 +1,17 @@
+.title {
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-weight: 900;
+}
+
+.signInBackground {
+  /* Set the background image */
+  background: url("../images/signin-background.jpg");
+
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
